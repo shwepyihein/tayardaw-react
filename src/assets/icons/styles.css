@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "music";
+  src:url("fonts/music.eot");
+  src:url("fonts/music.eot?#iefix") format("embedded-opentype"),
+    url("fonts/music.woff") format("woff"),
+    url("fonts/music.ttf") format("truetype"),
+    url("fonts/music.svg#music") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "music" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "music" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sharpicons-add-headphones:before {
+  content: "\61";
+}
+.icon-sharpicons-add-mic:before {
+  content: "\62";
+}
+.icon-sharpicons-add-sound-folder:before {
+  content: "\63";
+}
+.icon-sharpicons-antena:before {
+  content: "\64";
+}
+.icon-sharpicons-app-settings:before {
+  content: "\65";
+}
+.icon-sharpicons-app-sound-settings:before {
+  content: "\66";
+}
+.icon-sharpicons-audio-jack:before {
+  content: "\67";
+}
+.icon-sharpicons-backward-button:before {
+  content: "\68";
+}
+.icon-sharpicons-burn-disc:before {
+  content: "\69";
+}
+.icon-sharpicons-cassette:before {
+  content: "\6a";
+}
+.icon-sharpicons-confirm-mic:before {
+  content: "\6b";
+}
+.icon-sharpicons-delete-sound-folder:before {
+  content: "\6c";
+}
+.icon-sharpicons-digital-sound:before {
+  content: "\6d";
+}
+.icon-sharpicons-disc:before {
+  content: "\6e";
+}
+.icon-sharpicons-disc-cover:before {
+  content: "\6f";
+}
+.icon-sharpicons-disc-cover-2:before {
+  content: "\70";
+}
+.icon-sharpicons-eject:before {
+  content: "\71";
+}
+.icon-sharpicons-expand:before {
+  content: "\72";
+}
+.icon-sharpicons-fast-backward:before {
+  content: "\73";
+}
+.icon-sharpicons-fast-forward:before {
+  content: "\74";
+}
+.icon-sharpicons-favorites:before {
+  content: "\75";
+}
+.icon-sharpicons-forward-button:before {
+  content: "\76";
+}
+.icon-sharpicons-guitar:before {
+  content: "\77";
+}
+.icon-sharpicons-headphones:before {
+  content: "\78";
+}
+.icon-sharpicons-headphones-connected:before {
+  content: "\79";
+}
+.icon-sharpicons-headphones-mic:before {
+  content: "\7a";
+}
+.icon-sharpicons-knob:before {
+  content: "\41";
+}
+.icon-sharpicons-lyrics:before {
+  content: "\42";
+}
+.icon-sharpicons-memory-card:before {
+  content: "\43";
+}
+.icon-sharpicons-mic:before {
+  content: "\44";
+}
+.icon-sharpicons-microphone:before {
+  content: "\45";
+}
+.icon-sharpicons-minimize:before {
+  content: "\46";
+}
+.icon-sharpicons-mp3-player:before {
+  content: "\47";
+}
+.icon-sharpicons-multimedia-player:before {
+  content: "\48";
+}
+.icon-sharpicons-music-app-store:before {
+  content: "\49";
+}
+.icon-sharpicons-note:before {
+  content: "\4a";
+}
+.icon-sharpicons-note-2:before {
+  content: "\4b";
+}
+.icon-sharpicons-note-3:before {
+  content: "\4c";
+}
+.icon-sharpicons-note-4:before {
+  content: "\4d";
+}
+.icon-sharpicons-pause-button:before {
+  content: "\4e";
+}
+.icon-sharpicons-piano:before {
+  content: "\4f";
+}
+.icon-sharpicons-pick-up-vinyl:before {
+  content: "\50";
+}
+.icon-sharpicons-pin:before {
+  content: "\51";
+}
+.icon-sharpicons-play-button:before {
+  content: "\52";
+}
+.icon-sharpicons-pop-up-windows:before {
+  content: "\53";
+}
+.icon-sharpicons-power-off:before {
+  content: "\54";
+}
+.icon-sharpicons-radio:before {
+  content: "\55";
+}
+.icon-sharpicons-record-button:before {
+  content: "\56";
+}
+.icon-sharpicons-remove-headphones:before {
+  content: "\57";
+}
+.icon-sharpicons-remove-headphones-2:before {
+  content: "\58";
+}
+.icon-sharpicons-remove-mic:before {
+  content: "\59";
+}
+.icon-sharpicons-remove-mic-2:before {
+  content: "\5a";
+}
+.icon-sharpicons-repeat:before {
+  content: "\30";
+}
+.icon-sharpicons-search:before {
+  content: "\31";
+}
+.icon-sharpicons-search-sound-folder:before {
+  content: "\32";
+}
+.icon-sharpicons-share-audio:before {
+  content: "\33";
+}
+.icon-sharpicons-shuffle:before {
+  content: "\34";
+}
+.icon-sharpicons-shuffle-2:before {
+  content: "\35";
+}
+.icon-sharpicons-song-favorites:before {
+  content: "\36";
+}
+.icon-sharpicons-song-file:before {
+  content: "\37";
+}
+.icon-sharpicons-song-info:before {
+  content: "\38";
+}
+.icon-sharpicons-song-lyrics:before {
+  content: "\39";
+}
+.icon-sharpicons-song-lyrics-2:before {
+  content: "\21";
+}
+.icon-sharpicons-sound-bass:before {
+  content: "\22";
+}
+.icon-sharpicons-sound-control:before {
+  content: "\23";
+}
+.icon-sharpicons-sound-favorites:before {
+  content: "\24";
+}
+.icon-sharpicons-sound-folder:before {
+  content: "\25";
+}
+.icon-sharpicons-sound-folder-2:before {
+  content: "\26";
+}
+.icon-sharpicons-sound-waves:before {
+  content: "\27";
+}
+.icon-sharpicons-speaker:before {
+  content: "\28";
+}
+.icon-sharpicons-speaker-1:before {
+  content: "\29";
+}
+.icon-sharpicons-speaker-2:before {
+  content: "\2a";
+}
+.icon-sharpicons-speaker-volume-1:before {
+  content: "\2b";
+}
+.icon-sharpicons-speaker-volume-2:before {
+  content: "\2c";
+}
+.icon-sharpicons-speaker-volume-3:before {
+  content: "\2d";
+}
+.icon-sharpicons-speaker-volume-decrease:before {
+  content: "\2e";
+}
+.icon-sharpicons-speaker-volume-increase:before {
+  content: "\2f";
+}
+.icon-sharpicons-speaker-volume-mute:before {
+  content: "\3a";
+}
+.icon-sharpicons-stop-button:before {
+  content: "\3b";
+}
+.icon-sharpicons-top-favorites:before {
+  content: "\3c";
+}
