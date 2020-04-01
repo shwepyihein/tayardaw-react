@@ -1,0 +1,19 @@
+.Name{
+    text-align: center;
+    border-radius: 5px;
+    border-top: 1px solid #e6ecf0;
+    width: 240px;
+    height: 150px;    
+    box-shadow:  rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    position: absolute;
+    top: 70%;    
+    left:9%;
+    z-index: 100000;
+    background: white;
+}
+h3{
+    margin:20px;
+    padding: 0;
+    font-size: 14px;
+}

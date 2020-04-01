@@ -1,0 +1,10 @@
+main{
+    margin-top:50px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+.hello{
+    display: flex;
+    justify-content: space-around;
+}
